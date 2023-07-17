@@ -1,0 +1,11 @@
+[book]
+authors = ["silence_zhpf"]
+language = "en"
+multilingual = false
+src = "src"
+title = "LunarVim笔记"
+[output.html]
+default-theme = "ayu"
+
+[output.html.playground]
+editable = true
