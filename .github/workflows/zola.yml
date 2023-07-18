@@ -11,7 +11,7 @@ jobs:
       - name: Install Zola
         uses: baptiste0928/cargo-install@v2
         with:
-          crates: zola
+          crate: zola
           features: indexing-zh
       - name: Build
         run: zola build
