@@ -8,6 +8,7 @@ compile_sass = true
 build_search_index = true
 
 theme = "blow"
+title = "LunarVim"
 
 default_language = "zh"
 
