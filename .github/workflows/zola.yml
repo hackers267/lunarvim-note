@@ -8,6 +8,8 @@ jobs:
     steps:
       - name: checkout
         uses: actions/checkout@v3.0.0
+        with:
+          submodules: true
       - name: Install Zola
         uses: baptiste0928/cargo-install@v2
         with:
