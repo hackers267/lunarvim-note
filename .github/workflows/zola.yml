@@ -13,6 +13,7 @@ jobs:
         with:
           crate: zola
           features: indexing-zh
+          git: https://github.com/getzola/zola
       - name: Build
         run: zola build
       - name: Upload artifact
