@@ -23,7 +23,7 @@ highlight_code = true
 # Put all your custom variables here
 enable_multilingue = false
 enable_search = false
-enable_sidebar = true
+enable_sidebar = false
 enable_navber = true
 enable_adsense = false
 
@@ -31,7 +31,9 @@ enable_adsense = false
 items = [
  { lang = "zh", links = [
    { url = "/", name = "主页" },
+   { url = "/post", name = "文章" },
    { url = "/tags", name = "标签"},
+   { url = "/about", name = "关于" },
   ]},
 ]
 title = "LunarVim"
