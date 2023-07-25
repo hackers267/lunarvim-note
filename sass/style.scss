@@ -1,0 +1,35 @@
+#page-content {
+  blockquote {
+    color: rgba($color: #ccc, $alpha: 0.7);
+    background-color: rgba($color: #333, $alpha: 1.0);
+    font-size: 0.9em;
+    margin: 0.5rem;
+    p {
+      padding: 0.5rem;
+    }
+  }
+  li {
+    list-style-type: '💖';
+    list-style-position: inside;
+  }
+  table {
+    margin-block: 0.5rem;
+    width: 100%;
+    td,th {
+      border: 1px solid #fff;
+      padding: 0.5rem;
+    }
+    thead {
+      tr {
+        background: repeating-linear-gradient(135deg, #89f7fe, #66a6ff);
+        color: #000;
+        font-weight: 700;
+      }
+    }
+    tbody {
+      tr {
+        background: repeating-linear-gradient(45deg, #667eea, #764ba2);
+      }
+    }
+  }
+}
