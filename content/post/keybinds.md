@@ -3,7 +3,7 @@ title = "LunarVim快捷键"
 description = "LunarVim快捷键"
 date = 2023-07-25 14:04:00
 [taxonomies]
-tags = ["keybinds"]
+tags = ["快捷键"]
 [extra]
 toc = true
 +++
